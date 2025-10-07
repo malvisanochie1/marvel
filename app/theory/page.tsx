@@ -24,7 +24,7 @@ const page = () => {
             </div>
           </section>
           <div className="flex w-full max-w-sm flex-col gap-6 pt-16">
-            <Tabs defaultValue="exercises" className="w-full mt-1">
+            <Tabs defaultValue="exercises" className="w-full mt-1 mx-auto">
               <div className="px-4 pt-2">
                 <TabsList className="w-full rounded-3xl bg-gray-200">
                   <TabsTrigger value="exercises">Exercises</TabsTrigger>
