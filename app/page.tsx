@@ -4,13 +4,19 @@ export default function Home() {
   return (
     <div className="bg-[#F4F4F4] text-[#808186] min-h-screen flex flex-col items-end justify-between">
       <div className="w-full">
-        <section className="flex justify-between items-center py-4 px-3 text-xl font-bold bg-white text-slate-800 w-full">
+        <section className="flex justify-between items-center py-4 px-3 text-xl font-bold bg-white text-slate-800 w-full fixed top-0 z-10 ">
           <div>logo</div>
-          <div className="rounded-full w-9 h-9 border overflow-hidden grid place-content-center bg-pink-500 ">
-            profile
+          <div className="rounded-full w-9 h-9 border overflow-hidden grid place-content-center bg-pink-500/20 ">
+            <Image
+              src="/user.png"
+              width={100}
+              height={100}
+              className="max-h-6 h-full w-full object-cover rounded-full"
+              alt=""
+            />
           </div>
         </section>
-        <div className="p-3  font-medium w-full space-y-4">
+        <div className="p-3  font-medium w-full space-y-4 pt-20">
           <div className="bg-white w-full px-3 py-5 rounded shadow">
             <h2 className="font-semibold text-sm mb-2.5 text-gray-600">
               Hi marvel <br /> <span>Ready for the next lesson?</span>
@@ -25,7 +31,7 @@ export default function Home() {
                 src="/home.jpeg"
                 width={100}
                 height={100}
-                className="max-h-24 h-full"
+                className="max-h-24 h-full object-cover"
                 alt=""
               />
             </div>
@@ -49,7 +55,7 @@ export default function Home() {
                 src="/home.jpeg"
                 width={100}
                 height={100}
-                className="max-h-24 h-full"
+                className="max-h-24 h-full object-cover"
                 alt=""
               />
             </div>

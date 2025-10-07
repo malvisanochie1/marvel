@@ -14,7 +14,13 @@ const page = () => {
           <section className="flex justify-between items-center py-4 px-3 text-xl font-bold bg-white text-slate-800 w-full fixed top-0 z-10 ">
             <div>logo</div>
             <div className="rounded-full w-9 h-9 border overflow-hidden grid place-content-center bg-pink-500/20 ">
-              profile
+              <Image
+                          src="/user.png"
+                          width={100}
+                          height={100}
+                          className="max-h-6 h-full w-full object-cover rounded-full"
+                          alt=""
+                        />
             </div>
           </section>
           <div className="flex w-full max-w-sm flex-col gap-6 pt-16">
@@ -46,7 +52,7 @@ const page = () => {
                     <div className="bg-white rounded overflow-hidden">
                       <div>
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover"
@@ -60,7 +66,7 @@ const page = () => {
                     <div className="bg-white rounded overflow-hidden">
                       <div>
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover"
@@ -74,7 +80,7 @@ const page = () => {
                     <div className="bg-white rounded overflow-hidden">
                       <div>
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover"
@@ -90,7 +96,7 @@ const page = () => {
                     <div className="bg-white rounded overflow-hidden">
                       <div>
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover"
@@ -110,7 +116,7 @@ const page = () => {
                     <div className=" grid grid-cols-12 ">
                       <div className="col-span-6">
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover rounded"
@@ -148,7 +154,7 @@ const page = () => {
                     <div className=" grid grid-cols-12 ">
                       <div className="col-span-6">
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover rounded"
@@ -186,7 +192,7 @@ const page = () => {
                     <div className=" grid grid-cols-12 ">
                       <div className="col-span-6">
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover rounded"
@@ -224,7 +230,7 @@ const page = () => {
                     <div className=" grid grid-cols-12 ">
                       <div className="col-span-6">
                         <Image
-                          src="/driver.jfif"
+                          src="/driver.jpg"
                           width={100}
                           height={100}
                           className="max-h-24 h-full w-full object-cover rounded"
