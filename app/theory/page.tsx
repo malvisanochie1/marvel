@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const page = () => {
   return (
     <>
-      <div className="bg-[#F4F4F4] text-[#808186] min-h-screen flex flex-col items-end justify-between md:hidden">
+      <div className="bg-[#F4F4F4] text-[#808186] min-h-screen flex flex-col items-end justify-between sm:hidden">
         <div className="w-full">
           <section className="flex justify-between items-center py-4 px-3 text-xl font-bold bg-white text-slate-800 w-full fixed top-0 z-10 ">
             <div>logo</div>
