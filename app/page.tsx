@@ -7,12 +7,12 @@ export default function Home() {
         <div className="w-full">
           <section className="flex justify-between items-center py-4 px-3 text-xl font-bold bg-white text-slate-800 w-full fixed top-0 z-10 ">
             <div>logo</div>
-            <div className="rounded-full w-9 h-9 border overflow-hidden grid place-content-center bg-pink-500/20 ">
+            <div className="rounded-full w-11 h-11 border overflow-hidden grid place-content-center bg-pink-500/20 ">
               <Image
                 src="/user.png"
                 width={100}
                 height={100}
-                className="max-h-6 h-full w-full object-cover rounded-full"
+                className="max-h-8 h-full w-full object-cover rounded-full"
                 alt=""
               />
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
           <Footer />
         </div>
       </div>{" "}
-      <div className="h-screen font-Bold flex justify-center items-center text-4xl">
+      <div className="h-screen font-Bold hidden sm:flex justify-center items-center text-4xl  px-4 text-center">
         Desktop coming soon please view on mobile...
       </div>
     </>

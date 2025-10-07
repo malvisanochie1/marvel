@@ -10,20 +10,20 @@ const page = () => {
   return (
     <>
       <div className="bg-[#F4F4F4] text-[#808186] min-h-screen flex flex-col items-end justify-between sm:hidden">
-        <div className="w-full">
+        <div className="w-full justify-center flex flex-col items-center">
           <section className="flex justify-between items-center py-4 px-3 text-xl font-bold bg-white text-slate-800 w-full fixed top-0 z-10 ">
             <div>logo</div>
-            <div className="rounded-full w-9 h-9 border overflow-hidden grid place-content-center bg-pink-500/20 ">
+            <div className="rounded-full w-11 h-11 border overflow-hidden grid place-content-center bg-pink-500/20 ">
               <Image
-                          src="/user.png"
-                          width={100}
-                          height={100}
-                          className="max-h-6 h-full w-full object-cover rounded-full"
-                          alt=""
-                        />
+                src="/user.png"
+                width={100}
+                height={100}
+                className="max-h-8 h-full w-full object-cover rounded-full"
+                alt=""
+              />
             </div>
           </section>
-          <div className="flex w-full max-w-sm flex-col gap-6 pt-16">
+          <div className="flex w-full max-w-sm flex-col gap-6 pt-20">
             <Tabs defaultValue="exercises" className="w-full mt-1 mx-auto">
               <div className="px-4 pt-2">
                 <TabsList className="w-full rounded-3xl bg-gray-200">
@@ -274,7 +274,7 @@ const page = () => {
           <Footer />
         </div>{" "}
       </div>
-       <div className="h-screen font-Bold flex justify-center items-center text-4xl">
+      <div className="h-screen font-Bold hidden sm:flex justify-center items-center text-4xl px-4 text-center">
         Desktop coming soon please view on mobile...
       </div>
     </>
